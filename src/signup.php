@@ -34,7 +34,7 @@ if($ans){
 }
     }
 }else{
-    echo "Error";
+    echo "Query error";
 }
 
 ?>

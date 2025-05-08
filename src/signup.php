@@ -31,7 +31,7 @@ $ans = pg_query($conn, $sql);
 
 if($ans){
     echo "<scrip>alert('User has been created. Go to login') </scrip>";
-    header('Refresh:0;URL=http://localhost/pet-store/src/signin.html');
+    header('Refresh:0;URL=http://127.0.0.1/pet-store/src/signin.html');
 }else {
     echo "Error";
 }
